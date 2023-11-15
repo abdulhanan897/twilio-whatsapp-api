@@ -13,6 +13,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/twillio/whatsapp', usersRouter);
+// app.use('/twillio/whatsapp', usersRouter);
 
 module.exports = app;
